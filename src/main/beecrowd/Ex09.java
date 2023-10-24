@@ -3,8 +3,8 @@ package main.beecrowd;
 import java.util.Scanner;
 
 /*
- * Escreva	um	programa	para	ler	3	valores	inteiros	e	escrever	o	maior	deles.
- * Considere	que	o	usuário	não	informará	valores	iguais.
+ * Escreva	um	programa para ler 3 valores inteiros e escrever o maior  deles.
+ * Considere que o usuário	não	informará valores iguais.
  *
  */
 
