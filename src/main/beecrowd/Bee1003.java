@@ -10,7 +10,6 @@ public class Bee1003 {
     	int B = sc.nextInt() ;
     	int SOMA = A+B;
     	
-    	
      System.out.println("SOMA = "+SOMA);    	
     	 
     	 
