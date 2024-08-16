@@ -1,4 +1,4 @@
-package main.beecrowd;
+package exemplos;
 
 import java.util.Scanner;
 

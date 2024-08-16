@@ -1,4 +1,4 @@
-
+package exemplos;
 /*
  * https://docentes.ifrn.edu.br/nickersonferreira/disciplinas/fundamentos-de-logica-e-algoritmos-1o-ano-info/lista-de-exercicios-repeticao/view
  *
@@ -22,14 +22,11 @@ public class Tabuada {
 
         // Exemplo com while
         /*
-
         int i = 0;
         while(i < 10) {
             System.out.printf("%d x %d = %d\n", numero, i, numero * i);
             i++;
-
         }*/
-
         sc.close();
     }
 }

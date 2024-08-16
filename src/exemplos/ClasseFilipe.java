@@ -1,4 +1,4 @@
-package main.beecrowd;
+package exemplos;
 
 public class ClasseFilipe {
 

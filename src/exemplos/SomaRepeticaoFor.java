@@ -1,4 +1,4 @@
-package main;
+package exemplos;
 
 public class SomaRepeticaoFor {
     public static void main(String[] args) {

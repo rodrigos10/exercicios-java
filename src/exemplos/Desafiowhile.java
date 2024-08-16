@@ -1,3 +1,5 @@
+package exemplos;
+
 import java.util.Scanner;
 
 public class Desafiowhile {
@@ -6,7 +8,7 @@ public class Desafiowhile {
         int quantidadesdenotas = 0;
         double nota = 0;
         double total = 0;
-        while (nota != -1) {
+        while (nota != 1) {
             System.out.println("digite a nota: ");
             nota = entrada.nextDouble();
              total += nota;
@@ -15,6 +17,5 @@ public class Desafiowhile {
         double media = total / quantidadesdenotas;
         System.out.println("media= " + media);
         entrada.close();
-
     }
 }

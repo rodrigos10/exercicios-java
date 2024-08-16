@@ -1,3 +1,5 @@
+package exemplos;
+
 import javax.xml.transform.OutputKeys;
 import java.util.Scanner;
 

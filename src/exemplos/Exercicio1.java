@@ -1,3 +1,5 @@
+package exemplos;
+
 public class Exercicio1 {
     /*
      * https://docentes.ifrn.edu.br/nickersonferreira/disciplinas/fundamentos-de-logica-e-algoritmos-1o-ano-info/lista-de-exercicios-repeticao/view
