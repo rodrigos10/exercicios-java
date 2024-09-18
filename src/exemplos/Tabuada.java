@@ -19,7 +19,6 @@ public class Tabuada {
         for (int i = 0; i <= 10; i++) {
             System.out.printf("%d x %d = %d\n", numero, i, numero * i);
         }
-
         // Exemplo com while
         /*
         int i = 0;

@@ -21,3 +21,13 @@ public class revibee135 {
         }
     }
 }
+
+//CREATE TABLE FUNCIONARIO (
+//    CPF CHAR(11) PRIMARY KEY,
+//    Nome_Completo VARCHAR(100) NOT NULL,
+//    Departamento VARCHAR(50),
+//    Telefone CHAR(10),
+//    Email VARCHAR(100),
+//    SUBORDINADO_A CHAR(11),
+//    FOREIGN KEY (SUBORDINADO_A) REFERENCES FUNCIONARIO(CPF)
+//);
