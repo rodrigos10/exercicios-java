@@ -1,5 +1,7 @@
 package exercicioJantar;
 
+import java.util.ArrayList;
+
 public class Jantar {
     public static void main(String[] args) {
         Comida c1 = new Comida("Arroz", 0.180);
@@ -13,6 +15,5 @@ public class Jantar {
         p.comer(c2);
 
         System.out.println(p.apresentar());
-
-    }
-}
+      }
+   }

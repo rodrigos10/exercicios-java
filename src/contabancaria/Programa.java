@@ -1,6 +1,6 @@
 package contabancaria;
 
-public class ContaEspecial extends ContaBancaria{
+public class Programa extends ContaBancaria{
     private double limite;
 
     public double getLimite() {

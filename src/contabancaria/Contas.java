@@ -2,29 +2,29 @@ package contabancaria;
 
 import java.util.Calendar;
 
-public class Titular extends  ContaBancaria {
-    public int String ;
+public class Contas{
+    public ContaBancaria contaBancaria;
+    public double saldo;
 
-    public int getDiaRendimento() {
-        return diaRendimento;
+ //-------------------------------------------//
+    public Contas(ContaBancaria contaBancaria){
+        this.contaBancaria = contaBancaria;
     }
-
-    public void setDiaRendimento(int diaRendimento) {
-        this.diaRendimento = diaRendimento;
+ //------------------------------------------//
+    public Contas(double saldo){
+        this.saldo=saldo;
     }
-
-    @Override
-    public String toString() {
-        String s = "ContaPoupança[";
-        s += "diaRendimento: " + super.toString();
-        s += "]";
-        return s;
+ //---------------depositar------------------//
+    public void depositar(double vaolor){
+        this.saldo += vaolor;
     }
-
-    public boolean calcularNovoSaldo(double taxaRendimento) {
-
-        Calendar hoje = Calendar.getInstance();
-
-        return false;
+//---------------sacar----------------------//
+    public void sacar(double valor){
+        this.saldo -= valor;
+    }
+//---------------Transferir-----------------//
+    public void trsnferir(double valor, Contas contaDestino){
+        this.sacar(valor);
+        contaDestino.depositar(valor);
     }
 }
