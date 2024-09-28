@@ -1,6 +1,6 @@
 package exemplos;
 
-public class EqualsHashcode {
+public class Equals {
     public static void main(String[] args) {
 
         Usuario u1 = new Usuario();
