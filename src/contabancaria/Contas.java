@@ -1,30 +1,21 @@
 package contabancaria;
 
-import java.util.Calendar;
+import java.util.Scanner;
 
-public class Contas{
-    public ContaBancaria contaBancaria;
-    public double saldo;
+public class Contas {
+     String numeconta = "";
+     double saldo = 0;
 
- //-------------------------------------------//
-    public Contas(ContaBancaria contaBancaria){
-        this.contaBancaria = contaBancaria;
-    }
- //------------------------------------------//
-    public Contas(double saldo){
-        this.saldo=saldo;
-    }
- //---------------depositar------------------//
-    public void depositar(double vaolor){
-        this.saldo += vaolor;
-    }
-//---------------sacar----------------------//
-    public void sacar(double valor){
-        this.saldo -= valor;
-    }
-//---------------Transferir-----------------//
-    public void trsnferir(double valor, Contas contaDestino){
-        this.sacar(valor);
-        contaDestino.depositar(valor);
-    }
+     public double deposita() {
+          Scanner sr = new Scanner(System.in);
+
+
+          System.out.println(" quanto quer depositar? ");
+          double valor = sr.nextDouble();
+
+          for (int i = 0; valor <= i; valor++){}
+
+          return valor;
+     }
 }
+
