@@ -1,4 +1,4 @@
-package contabancaria;
+package exemplos.contabancaria;
 
 public class Cliente {
     String nome = "";

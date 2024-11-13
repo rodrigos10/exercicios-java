@@ -1,6 +1,4 @@
-package exemplos;
-
-import java.util.concurrent.Exchanger;
+package exemplos.ExemplosDiversos;
 
 public class Exchange {
     public final double cotacaoDolar = 5.5;

@@ -1,4 +1,4 @@
-package exemplos;
+package exemplos.ExemplosDiversos;
 
 import java.sql.SQLOutput;
 import java.util.Arrays;
