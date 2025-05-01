@@ -1,0 +1,94 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+# Arquivos sensíveis
+.env
+*.pem
+
+# Docker
+docker-compose.yml
+Dockerfile
+
+# Banco de dados
+*.sock
+*.cnf
+*.ibd
+*.idb
+*.dblwr
+*.index
+*.log
+*.frm
+*.MYD
+*.MYI
+*.err
+*.pid
+*.opt
+# Pastas padrão do MySQL/MariaDB
+mysql/
+sys/
+performance_schema/
+innodb_temp/
+# Binários do InnoDB
+ibdata*
+ibtmp*
+undo_*
+binlog.*
+# Ignorar qualquer pasta de dados dentro de .devcontainer
+.devcontainer/data/db/
+# Ignorar arquivos acima se vierem de pastas paralelas
+../*.sock
+../*.cnf
+../*.ibd
+../mysql/
+../*.pem
+../*.log
+../*.index
+../#*/
+
+# Maven
+.mvn/
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+*.classpath
+*.project
+.settings/
+
+# Sistema
+.DS_Store
+Thumbs.db
